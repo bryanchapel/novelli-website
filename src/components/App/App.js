@@ -12,7 +12,7 @@ class App extends Component {
                 <div>
                     <header className="App-header">
                         <h1>
-                            <span class="heading-hash">#</span> NOVELLI&nbsp;<span class="cursor"> </span>
+                            <span className="heading-hash">#</span> NOVELLI&nbsp;<span className="cursor"> </span>
                         </h1>
                     </header>
                     <p>
