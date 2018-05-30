@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import SignUp from '../SignUp/SignUp';
+import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import Features from '../Features/Features';
 import editorPic from '../../assets/Lightlines.png';
 import './App.css';
 
@@ -10,18 +12,9 @@ class App extends Component {
         <div>
             <div className="App">
                 <div>
-                    <header className="App-header">
-                        <h1>
-                            <span className="heading-hash">#</span> NOVELLI&nbsp;<span className="cursor"> </span>
-                        </h1>
-                    </header>
-                    <p>
-                        <strong>NOVELLI</strong> <em>[nov uh lee]</em> : A minimal, distraction free writing application for Mac OS, Windows, and Linux.
-                    </p>
-                    <p><img src={editorPic} className="editor-pic" /></p>
-                    <p>
-                        Enter your email below to be notified when our beta launches, and to be one of our limited first users.
-                    </p>
+                    <Header />
+                    <div><img src={editorPic} className="editor-pic" alt=""/></div>
+                    <Features />
                     <SignUp />
                 </div>
             </div>

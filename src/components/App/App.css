@@ -5,18 +5,7 @@
     text-align: center;
 }
 
-@keyframes cursorBlink {
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-}
-
-.cursor {
-    animation: cursorBlink 1s infinite;
-    color:  rgb(255, 102, 0);
-    border: 2px solid rgb(255, 102, 0);
-}
-
 .editor-pic {
-    width: 70%;
+    max-width: 70%;
+    /* box-shadow: #00adef 0px 0px 30px; */
 }
