@@ -16,6 +16,11 @@ class App extends Component {
                     <div><img src={editorPic} className="editor-pic" alt=""/></div>
                     <Features />
                     <SignUp />
+                    <div className="coming-soon">
+                    <p>
+                        Coming soon after launch... <i className="fab fa-android android-green"></i> <i className="fab fa-apple apple-white"></i>
+                    </p>
+                    </div>
                 </div>
             </div>
             <Footer />
