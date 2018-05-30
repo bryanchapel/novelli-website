@@ -1,0 +1,21 @@
+.features-container {
+    width: 80vw;
+    margin: 100px auto;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.features>* {
+    flex: 1 0 30%;
+    margin: 30px 0;
+}
+
+.feature-pic {
+    display: block;
+    margin: 0 auto;
+}
