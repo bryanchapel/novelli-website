@@ -14,7 +14,7 @@ class App extends Component {
                 <div>
                     <Header />
                     <div><img src={editorPic} className="editor-pic" alt=""/></div>
-                    <Features />
+                    {/* <Features /> */}
                     <SignUp />
                     <div className="coming-soon">
                     <p>
